@@ -1,0 +1,26 @@
+---
+title: "Homework11"
+author: "Diego Gomez"
+date: "4/20/2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+PR0 <- read.table("/Users/dgomez/Desktop/COSC6000/homework11/ProjectileData/Projectile0Drag.dat")
+PR1 <- read.table("/Users/dgomez/Desktop/COSC6000/homework11/ProjectileData/Projectile1Drag.dat")
+PR2 <- read.table("/Users/dgomez/Desktop/COSC6000/homework11/ProjectileData/Projectile2Drag.dat")
+PR3 <- read.table("/Users/dgomez/Desktop/COSC6000/homework11/ProjectileData/Projectile3Drag.dat")
+PR4 <- read.table("/Users/dgomez/Desktop/COSC6000/homework11/ProjectileData/Projectile4Drag.dat")
+plot(PR0$V2,PR0$V3,xlab="X (m)",ylab="Y (m)",type="l",col="black",ylim=c(0,3.6))  
+lines(PR1$V2,PR1$V3,col="red")
+lines(PR2$V2,PR2$V3,col="orange")
+lines(PR3$V2,PR3$V3,col="green")
+lines(PR4$V2,PR4$V3,col="purple")
+legend("top",horiz=TRUE,title = "Drag Coefficient (1/s)",legend=c("0","0.5","1","5","10"),col=c("black","red","orange","green","purple"),lty=c(1,1,1,1,1))
+```
+
