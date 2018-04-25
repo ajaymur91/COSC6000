@@ -1,0 +1,82 @@
+Cubs, West Side Grounds, Chicago, 16000, 186 yd, 2 ft, 0 in
+Highlanders, Hilltop Park, New York, 15000, 180 yd, 2 ft, 0 in
+Giants, Hilltop Park, New York, 15000, 180 yd, 2 ft, 0 in
+Pilgrims/Red Sox, Huntington Ave Baseball Grounds, Boston, 11500, 176 yd, 2 ft, 0 in
+Braves, Fenway Park, Boston, 35000, 162 yd, 2 ft, 0 in
+Mets, Polo Grounds (V), New York, 56000, 161 yd, 0 ft, 0 in
+Giants, Polo Grounds (V), New York, 54500, 160 yd, 0 ft, 0 in
+Athletics, Shibe Park, Philadelphia, 33166, 156 yd, 0 ft, 0 in
+Yankees, Yankee Stadium (I), New York, 67000, 153 yd, 2 ft, 0 in
+Pirates, Exposition Park (III), Pittsburgh, 16000, 150 yd, 0 ft, 0 in
+Tigers, Tiger Stadium, Detroit, 46945, 146 yd, 2 ft, 0 in
+Cardinals, Robison Field, St. Louis, 21000, 145 yd, 0 ft, 0 in
+Pirates, Forbes Field, Pittsburgh, 35000, 145 yd, 0 ft, 0 in
+Astros, Minute Maid Park, Houston, 42000, 145 yd, 0 ft, 0 in
+Giants, Polo Grounds (IV), New York, 16000, 144 yd, 1 ft, 0 in
+Yankees, Polo Grounds (V), New York, 38000, 144 yd, 1 ft, 0 in
+Rockies, Mile High Stadium, Denver, 76037, 141 yd, 0 ft, 0 in
+Tigers, Comerica Park, Detroit, 40637, 140 yd, 2 ft, 0 in
+Royals, Municipal Stadium, Kansas City, 35561, 140 yd, 1 ft, 0 in
+Senators, Griffith Stadium, Washington, 27550, 140 yd, 1 ft, 0 in
+Athletics, Municipal Stadium, Kansas City, 32561, 140 yd, 1 ft, 0 in
+Senators, Griffith Stadium, Washington, 28669, 140 yd, 1 ft, 0 in
+Cardinals, Sportsman's Park (III), St. Louis, 30500, 140 yd, 0 ft, 0 in
+Naps/Indians, League Park (II), Cleveland, 22500, 140 yd, 0 ft, 0 in
+Colt .45s, Colt Stadium, Houston, 32601, 140 yd, 0 ft, 0 in
+Browns, Sportsman's Park (III), St. Louis, 34450, 140 yd, 0 ft, 0 in
+Dodgers, Memorial Coliseum, Los Angeles, 94600, 140 yd, 0 ft, 0 in
+Expos, Parc Jarry, Montreal, 28456, 139 yd, 0 ft, 0 in
+Rockies, Coors Field, Denver, 50249, 138 yd, 1 ft, 0 in
+Angels, Wrigley Field, Los Angeles, 20457, 137 yd, 1 ft, 0 in
+Dodgers, Roosevelt Stadium, Jersey City, 24500, 137 yd, 0 ft, 0 in
+Phillies, Connie Mack Stadium, Philadelphia, 33608, 136 yd, 2 ft, 0 in
+Mets, Shea Stadium, New York, 55775, 136 yd, 2 ft, 0 in
+Senators, RFK Stadium, Washington, 43500, 136 yd, 2 ft, 0 in
+Royals, Kauffman Stadium, Kansas City, 40625, 136 yd, 2 ft, 0 in
+Yankees, Shea Stadium, New York, 55600, 136 yd, 2 ft, 0 in
+Angels, Dodger Stadium, Los Angeles, 56000, 136 yd, 2 ft, 0 in
+Giants, 3Com Park, San Francisco, 58000, 136 yd, 2 ft, 0 in
+White Sox, Comiskey Park (I), Chicago, 43951, 136 yd, 1 ft, 0 in
+Yankees, Yankee Stadium (II), New York, 57545, 136 yd, 0 ft, 0 in
+Angels, Edison International, Anaheim, 45050, 136 yd, 0 ft, 0 in
+Phillies, Baker Bowl, Philadelphia, 18800, 136 yd, 0 ft, 0 in
+Phillies, Veterans Stadium, Philadelphia, 62382, 136 yd, 0 ft, 0 in
+Twins, Humphrey Metrodome, Minneapolis, 55883, 136 yd, 0 ft, 0 in
+Devil Rays, Tropicana Field, St. Petersburg, 45360, 135 yd, 2 ft, 0 in
+Diamondbacks, Bank One Ballpark, Phoenix, 48700, 135 yd, 2 ft, 0 in
+Indians, Jacobs Field, Cleveland, 43345, 135 yd, 0 ft, 0 in
+Mariners, Safeco Field, Seattle, 47116, 135 yd, 0 ft, 0 in
+Orioles, Memorial Stadium, Baltimore, 53371, 135 yd, 0 ft, 0 in
+Mariners, Kingdome, Seattle, 59166, 135 yd, 0 ft, 0 in
+Padres, Qualcomm Stadium, San Diego, 67544, 135 yd, 0 ft, 0 in
+Indians, Cleveland Stadium, Cleveland, 74483, 134 yd, 2 ft, 0 in
+Expos, Le Stade Olympique, Montreal, 43739, 134 yd, 2 ft, 0 in
+Giants, Pacific Bell Park, San Francisco, 40800, 134 yd, 2 ft, 0 in
+Marlins, Pro Player Stadium, Miami, 47662, 134 yd, 2 ft, 0 in
+Brewers, County Stadium, Milwaukee, 53192, 134 yd, 0 ft, 0 in
+Twins, Metropolitan Stadium, Minneapolis, 45919, 134 yd, 0 ft, 0 in
+Braves, County Stadium, Milwaukee, 43826, 134 yd, 0 ft, 0 in
+Braves, Atlanta Fulton County Stadium, Atlanta, 52013, 134 yd, 0 ft, 0 in
+Cubs, Wrigley Field, Chicago, 38765, 134 yd, 0 ft, 0 in
+Cardinals, Busch Stadium, St. Louis, 49676, 134 yd, 0 ft, 0 in
+Pilots, Sicks' Stadium, Seattle, 25420, 134 yd, 0 ft, 0 in
+Braves, Turner Field, Atlanta, 50062, 133 yd, 2 ft, 0 in
+Rangers, The Ballpark in Arlington, Arlington, 49170, 133 yd, 1 ft, 0 in
+Pirates, Three Rivers Stadium, Pittsburgh, 47971, 133 yd, 1 ft, 0 in
+White Sox, Comiskey Park (II), Chicago, 44321, 133 yd, 1 ft, 0 in
+Brewers, Miller Park, Milwaukee, 42200, 133 yd, 1 ft, 0 in
+Astros, Astrodome, Houston, 54816, 133 yd, 1 ft, 0 in
+Orioles, Oriole Park at Camden Yards, Baltimore, 48262, 133 yd, 1 ft, 0 in
+Rangers, Arlington Stadium, Arlington, 43521, 133 yd, 1 ft, 0 in
+Giants, Seal Stadium, San Francisco, 22900, 133 yd, 1 ft, 0 in
+Pirates, PNC Park, Pittsburgh, 38217, 133 yd, 1 ft, 0 in
+Athletics, Network Assoc Coliseum, Oakland, 45177, 133 yd, 1 ft, 0 in
+Blue Jays, Exhibition Stadium, Toronto, 43737, 133 yd, 1 ft, 0 in
+Superbas/Dodgers, Washington Park, Brooklyn, 18800, 133 yd, 1 ft, 0 in
+Blue Jays, SkyDome, Toronto, 50516, 133 yd, 1 ft, 0 in
+Dodgers, Dodger Stadium, Los Angeles, 56000, 131 yd, 2 ft, 0 in
+Dodgers, Ebbets Field, Brooklyn, 28000, 131 yd, 0 ft, 0 in
+Reds, Cinergy Field, Cincinnati, 40008, 131 yd, 0 ft, 0 in
+Braves, Braves Field, Boston, 37106, 130 yd, 0 ft, 0 in
+Red Sox, Fenway Park, Boston, 33925, 130 yd, 0 ft, 0 in
+Reds, Crosley Field, Cincinnati, 29603, 129 yd, 0 ft, 0 in
