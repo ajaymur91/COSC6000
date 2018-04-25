@@ -1,5 +1,3 @@
-//iMac commit test
-//Xcode iMac commit test
 #include <iostream>
 #include <fstream>
 #include <cmath>
