@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8F1EE7252090014300F0992E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EE7242090014300F0992E /* main.cpp */; };
+		8F1EE7312090033800F0992E /* vector2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EE72C2090033700F0992E /* vector2d.cpp */; };
+		8F1EE7322090033800F0992E /* ProjectileWithDrag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EE72D2090033700F0992E /* ProjectileWithDrag.cpp */; };
+		8F1EE7332090033800F0992E /* Projectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EE7302090033700F0992E /* Projectile.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		8F1EE7212090014300F0992E /* homework12 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homework12; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1EE7242090014300F0992E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F1EE72B2090033700F0992E /* vector2d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vector2d.hpp; sourceTree = "<group>"; };
+		8F1EE72C2090033700F0992E /* vector2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vector2d.cpp; sourceTree = "<group>"; };
+		8F1EE72D2090033700F0992E /* ProjectileWithDrag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProjectileWithDrag.cpp; sourceTree = "<group>"; };
+		8F1EE72E2090033700F0992E /* ProjectileWithDrag.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProjectileWithDrag.hpp; sourceTree = "<group>"; };
+		8F1EE72F2090033700F0992E /* Projectile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Projectile.hpp; sourceTree = "<group>"; };
+		8F1EE7302090033700F0992E /* Projectile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Projectile.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				8F1EE7242090014300F0992E /* main.cpp */,
+				8F1EE7302090033700F0992E /* Projectile.cpp */,
+				8F1EE72F2090033700F0992E /* Projectile.hpp */,
+				8F1EE72D2090033700F0992E /* ProjectileWithDrag.cpp */,
+				8F1EE72E2090033700F0992E /* ProjectileWithDrag.hpp */,
+				8F1EE72C2090033700F0992E /* vector2d.cpp */,
+				8F1EE72B2090033700F0992E /* vector2d.hpp */,
 			);
 			path = homework12;
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1EE7332090033800F0992E /* Projectile.cpp in Sources */,
+				8F1EE7312090033800F0992E /* vector2d.cpp in Sources */,
+				8F1EE7322090033800F0992E /* ProjectileWithDrag.cpp in Sources */,
 				8F1EE7252090014300F0992E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
