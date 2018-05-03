@@ -9,8 +9,6 @@
 const double weight = 20;
 const double D = 0.5;
 const double dt = 0.01;
-const double init_angle = M_PI_4;
-const double target_dist = 100.;
 
 bool YesOrNo(std::string message){
     std::cout << message << std::endl;
@@ -35,7 +33,7 @@ private:
     std::string response;
 };
 
-void simulation(Projectile trajectory){
+void simulation(Projectile trajectory,double target_dist){
     while(1){
         trajectory.update(dt);
         vector2d cord = trajectory.get_coordinate();
@@ -57,29 +55,40 @@ void simulation(Projectile trajectory){
 int main(){
     std::cout << "Try to hit a target 100m away" << std::endl;
     std::cout << "Your object has a weight of " << weight
-    << "kg, " << "an initial angle of " << init_angle <<" and a drag coefficient of "
+    << "kg, "<<" and a drag coefficient of "
     << D << "kg/s" << std::endl;
    
     while(1){
-        std::cout << "Enter an initial speed in m/s: ";
         vector2d cord;
         double init_speed = 0;
+        double init_angle = 0;
+        double target_dist = 0;
+        std::cout << "\nEnter the target distance: ";
+        std::cin >> target_dist;
+        std::cout << "\nEnter an initial speed in m/s: ";
         std::cin >> init_speed;
+        std::cout << "\nEnter an initial angle in radians: ";
+        std::cin >> init_angle;
         try {
-            
             if (!std::cin){
                 std::cin.clear();
-                throw ProjectileFormatMistake("Wrong data type");
+                throw ProjectileFormatMistake("Wrong data!\n");
             }
-            if (init_speed <= 0 ){
-                throw ProjectileFormatMistake("Initial speed less than zero!");
+            if (init_speed <= 50 || init_speed >= 100 ){
+                throw ProjectileFormatMistake("Initial speed out of bounds!\n");
+            }
+            if (init_angle <= 0 || init_angle >= M_PI_2){
+                throw ProjectileFormatMistake("Initial angle out of bounds!\n");
+            }
+            if (target_dist <= 0){
+                throw ProjectileFormatMistake("Target distance less than 0!\n");
             }
             ProjectileWithDrag trajectory(weight,init_speed,init_angle,D);
-            simulation(trajectory);
+            simulation(trajectory,target_dist);
         }
         catch (std::exception &e) {
             std::cout << e.what() << std::endl;
-            std::cout << "Enter a resonable speed";
+            std::cout << "Enter correct inputs\n";
             continue;
         }
         if (YesOrNo("Again?(y/n)")) {
