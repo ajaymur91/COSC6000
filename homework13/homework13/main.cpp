@@ -33,7 +33,7 @@ private:
     std::string response;
 };
 
-void simulation(Projectile trajectory,double target_dist){
+void simulation(Projectile trajectory,const double &target_dist){
     while(1){
         trajectory.update(dt);
         vector2d cord = trajectory.get_coordinate();
