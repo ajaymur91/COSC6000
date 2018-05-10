@@ -82,23 +82,20 @@ int main(){
                     throw ProjectileFormatMistake("Target distance less than 0!\n");
                 }
                 ProjectileWithDrag trajectory(weight,init_speed,init_angle,D);
-                if (simulation(trajectory, target_dist)) goto label1;
-                else{
-                    if (YesOrNo("Try again at this distance? (Y/N)")){
-                        goto end;
-                    }
-                }
+                if (simulation(trajectory, target_dist)) break;
+                
             }
             catch (std::exception &e) {
                 std::cout << e.what() << std::endl;
                 std::cout << "Enter correct inputs\n";
                 continue;
             }
+            if (YesOrNo("Try again at this distance? (Y/N)")) break;
         }
-    label1:if (YesOrNo("A new target? (Y/N)")) {
+    if (YesOrNo("A new target? (Y/N)")) {
             break;
         }
     }
-end:std::cout << "End of program \n";
+std::cout << "End of program \n";
     return 0;
 }
