@@ -90,7 +90,7 @@ int main(){
                 std::cout << "Enter correct inputs\n";
                 continue;
             }
-            if (YesOrNo("Try again at this distance? (Y/N)")) break;
+            if (YesOrNo("Try again at this distance? (Y/N)")) return 0;
         }
     if (YesOrNo("A new target? (Y/N)")) {
             break;
