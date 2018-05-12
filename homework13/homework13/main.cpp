@@ -28,10 +28,14 @@ private:
     std::string response;
 };
 
-bool simulation(Projectile trajectory,const double &target_dist){
+bool simulation(ProjectileWithDrag *trajectory,const double &target_dist){
+    std::ofstream file;
+    file.open("/Users/dgomez/Desktop/hw13.txt");
     while(1){
-        trajectory.update(dt);
-        vector2d cord = trajectory.get_coordinate();
+        file << *trajectory << std::endl;
+        trajectory -> update(dt);
+        vector2d cord = trajectory -> get_coordinate();
+        
         if (cord.get_y() <= 0.0){
             if(fabs(cord.get_x() - target_dist) < 1){
                 std::cout << "Target Destroyed" <<  std::endl;
@@ -48,6 +52,7 @@ bool simulation(Projectile trajectory,const double &target_dist){
         break;
         }
     }
+    file.close();
 }
 
 int main(){
@@ -82,7 +87,7 @@ int main(){
                     throw ProjectileFormatMistake("Target distance less than 0!\n");
                 }
                 ProjectileWithDrag trajectory(weight,init_speed,init_angle,D);
-                if (simulation(trajectory, target_dist)) break;
+                if (simulation(&trajectory, target_dist)) break;
                 
             }
             catch (std::exception &e) {
